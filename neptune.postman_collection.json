@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "5fe177a0-03f3-4a3a-a8f5-9d69a02ae297",
+		"name": "neptune",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5873835"
+	},
+	"item": [
+		{
+			"name": "{{host}}/human-capital/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/human-capital/all",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"human-capital",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{host}}/human-capital/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/human-capital/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"human-capital",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{host}}/human-capital/quarterly-report/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/human-capital/quarterly-report/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"human-capital",
+						"quarterly-report",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{host}}/product/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/product/all",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"product",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{host}}/product/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/product/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
